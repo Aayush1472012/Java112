@@ -1,0 +1,14 @@
+#change the gitignore as I show them code throughout the term.
+pending/
+labs/pending/
+assign*/
+exams/
+lecture01/
+lecture02/
+studentcode/
+*.class
+testing/
+assessments/
+*.log
+*~
+*.swp
