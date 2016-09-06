@@ -15,8 +15,7 @@ is a button to download everyting as a zip file.
 If you are game git clone the whole repo, open a command prompt:
 
 ```bash
-git clone https://github.com/campbe13/JavaSourceSamples360.git
-```
+git clone https://github.com/campbe13/Java112.git
 
 Windows or OS X first install git bash: https://git-scm.com/downloads
 ~                                                                     
