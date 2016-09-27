@@ -1,10 +1,10 @@
 #change the gitignore as I show them code throughout the term.
 pending/
-labs/pending/
+labs/
 assign*/
 exams/
-lecture01/
-lecture02/
+lectures/lecture09/
+lectures/lecture10/
 studentcode/
 *.class
 testing/
