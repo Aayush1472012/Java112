@@ -1,4 +1,3 @@
-//package fromslides.S06;
 /**
  * This class uses examples of constants of different data types
  * @author P.Campbell
