@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @version today
  *  
  **/
-public class CalcPay
+public class CalcPayMethods
 {
  
     public static void main(String[] args)
