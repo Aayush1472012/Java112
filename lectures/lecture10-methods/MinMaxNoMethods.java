@@ -1,4 +1,3 @@
-//package fromslides.S08;
 import java.util.Scanner;
 /**
  * This class illustrates modularization & methods
