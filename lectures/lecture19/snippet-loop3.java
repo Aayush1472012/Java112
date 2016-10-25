@@ -14,8 +14,10 @@
      int sum=0;
      
      while (start < 246) {
-        if (start == 121 || start == 227)
+        if (start == 121 || start == 227) {
+            start += 2;
             continue;
+        }
         sum += start;
         start +=2;
      }
