@@ -1,6 +1,6 @@
 /**
- * Class to test drawTriangle() 
- *   and drawTriangleRight()
+ * Class to test drawTriangleUpsideDown() 
+ *   and drawTriangleNumbers()
  * 420-112-DW
  * methods
  * nested while loops
@@ -25,6 +25,8 @@ public class DriveNested3 {
 	drawTriangleNumbers(3);
 	drawTriangleNumbers(5);
 	drawTriangleNumbers(11);
+	 
+	drawDiagonal ('x' , 9);
 
   } // main()
   /**
@@ -82,5 +84,30 @@ public static void drawTriangleUpsideDown (char symbol, int size)
             col=1;
        }
     } // drawTriangleNumbers
+  /**
+   * Given a character and a base size of a square
+   * display the character on the screen 
+   * with a number across the angle of the square
+   *
+   * @author PMC
+   * @param char  what we are drawing on the screen
+   * @param int   base length of table
+   **/
 
+	public static void drawDiagonal (char symbol, int size)
+    {
+	int row = 1, col = 1;
+        while (row <= size)   {
+            col = 1;
+            while (col <= size) {
+	      if (col==row)
+		System.out.print(col);
+               else
+               System.out.print (symbol);
+               col++;
+            }
+            System.out.println ();
+            row++;
+        }
+    }  // drawDiagonal()
 } // DriveNested3
