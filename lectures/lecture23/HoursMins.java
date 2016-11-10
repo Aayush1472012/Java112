@@ -19,7 +19,7 @@ public class HoursMins
             mm = 0;  		// init minor loop counter
             while (mm <= 59) 	// minor loop bounary
             {
-                System.out.println (hh + ":" + mm);
+                System.out.printf ("%02d:%03d", hh, mm);
                 mm++;  		// increment minor loop counter
             } 			// minor loop end
             hh++;  		// increment major loop counter
