@@ -4,24 +4,16 @@ public class BetterCat {
     private int age;
     private boolean isGiantCat;
 
-    public void setAge(int newAge) {
-      this.age = newAge;
-    }
-    public void setIsGiantCat(boolean giant) {
-      this.isGiantCat = giant;
-    }
+    // mutators
     public void setName(String newName) {
       this.name = newName;
     }
-    public int getAge() {
-      return this.age;
-    }
-    public boolean setIsGiantCat() {
-      return this.isGiantCat;
-    }
+  
+    // accessors
     public String getName() {
       return this.name;
     }
+    
     public void simpleMeow() {
       System.out.println("Meoooooooow");
       } // simpleMeow()
