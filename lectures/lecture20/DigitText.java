@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Validates that they followed the instructions
  * Displays the text equivalent of the digit in text
  * 
- * @pmcampbell
+ * @author pmcampbell
  * @version 2016-10-25
  * 
  **/
@@ -15,7 +15,7 @@ public class DigitText {
         int digit;
         String result;
 
-        digit = getIntInRange(1, 5);
+        digit = getIntRange(1, 5);
         result = convDigitText(digit);
 
         System.out.println("You entered: " + result);
@@ -25,7 +25,7 @@ public class DigitText {
      * get an integer input 
      * make sure it is within the range given by the parameters
      * 
-     * @pmcampbell
+     * @author pmcampbell
      * @version 2016-10-25
      * 
      * @param int min   low end of permitted range
@@ -33,7 +33,7 @@ public class DigitText {
      * @return int      input validated between the range
      * 
      **/
-    public static int getIntInRange(int min, int max) {
+    public static int getIntRange(int min, int max) {
             int num;
             //priming input
             num = acceptInt("Please enter a number between " + min + " and " + max + " ");
@@ -74,7 +74,7 @@ public class DigitText {
      * 
      * ex:  getDigitText(4) returns "four"
      **/
-    public static String convDigitText(int digit) {
+    public static String getDigitText(int digit) {
             String numberString;
             if (digit == 1) {
                 numberString = "one";
@@ -108,9 +108,9 @@ public class DigitText {
      * @param int digit number 
      * @return String string representation of the number
      * 
-     * ex:  getDigitText(4) returns "four"
+     * ex:  getDigitTextSwitch(4) returns "four"
      **/
-    public static String convDigitTextSwitch(int digit) {
+    public static String getDigitTextSwitch(int digit) {
         String numberString;
             switch (digit) {
                 case 1:

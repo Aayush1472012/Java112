@@ -20,7 +20,7 @@ public class Cat {
       this.age++;
     } //growOlder()
     
-    public void growOlderFaster(int years) {
+    public void growOlderFast(int years) {
        this.age += years;
     } //growOlder()
 

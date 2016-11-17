@@ -15,6 +15,7 @@ public class CrazyCatLady {
   garfield = new Cat();
   garfield.name = "Garfield";
   garfield.age =2;
+  garfield.isGiantCat = false;
   garfield.growOlderFast(10);
   System.out.println(garfield.name +  " age " + garfield.age);
   garfield.simpleMeow();
@@ -23,7 +24,8 @@ public class CrazyCatLady {
   
   simba = new Cat();
   simba.name ="Simba";
-  garfield.age = 5;
+  simba.age = 5;
+  simba.isGiantCat = true;
   simba.growOlder();
   System.out.println(simba.name +  " age " + simba.age);
   simba.simpleMeow();
