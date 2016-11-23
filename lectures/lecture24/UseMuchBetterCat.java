@@ -10,12 +10,12 @@ public class UseMuchBetterCat {
   
   public static void main (String[] args)
   {
-  Cat garfield, simba;
+  MuchBetterCat garfield, simba;
   
   // using no parameter constructor
-  garfield = new Cat();
+  garfield = new MuchBetterCat();
   // using multi parameter constructor
-  simba = new Cat("Simba", 5, true);
+  simba = new MuchBetterCat("Simba", 5, true);
   
   // use the data in the objects 
   System.out.println(simba.getName() +  " age " + simba.getAge());

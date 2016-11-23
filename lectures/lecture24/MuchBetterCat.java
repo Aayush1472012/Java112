@@ -1,4 +1,14 @@
-public class BetterCat {
+/**
+ * MuchBetterCat is created from 
+ * the starting point of BetterCat
+ * 
+ * It has two constructors
+ * a default no parameter constructor
+ * and a multi parameter constructor
+ * 
+ * @author pmcampbell
+ **/
+public class MuchBetterCat {
     // all values relate to a cat, in an object
     private String name;
     private int age;
@@ -28,6 +38,9 @@ public class BetterCat {
       return this.name;
     }
     
+    public int getAge() {
+      return this.age;
+    }
     public void simpleMeow() {
       System.out.println("Meoooooooow");
       } // simpleMeow()
