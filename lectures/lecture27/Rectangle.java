@@ -7,7 +7,7 @@
 */
 
 public class Rectangle { 
-  private static int rectCount = 0'
+  private static int rectCount = 0;
   private double length;
   private double width;
   /* 
