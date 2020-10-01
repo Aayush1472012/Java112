@@ -3,6 +3,9 @@ import java.util.Scanner;
  * 
  * Lecture 18 using ternary operator
  * 
+ * answer = (Expression) ? ans1 : ans2;
+ * It will give ans1 as answer if expression has true value,
+ * else it will give ans2 as answer.
  * @pmcampbell
  * @version 2016-10-25
  * 
